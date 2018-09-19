@@ -4,22 +4,22 @@
 
 - Create a local repository named after yourself separated by underscore, eg. *oyvind_helgeland*
 
-- Create a file called README.md where you write a short text snippet about yourself. I want you to use markdown for this. It is a simple formatting language used by many tools, including Github (this text is written in markdown!). Use the two resources below to generate the text that you paste into the file (or just write it into the README.md directly):
+- Create a file called README.md where you write a short text snippet about yourself. I want you to use markdown for this. It is a simple formatting language used by many tools, including Github and Rstudio (this text is written in markdown!). Use the two resources below to generate the text that you paste into the file (or just write it into the README.md directly):
 
   -  [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
   -  [Online parser](https://dillinger.io/)
 
-- Check the status. What does git tell you about the file?
+- Check the status (git status). What does git tell you about the current status of the file?
 
-- Add the file README.md and check the status. What does git tell you about the file?
+- Add the file (git add) README.md and check the status. What does git tell you about the file?
 
-- Commit the file README.md and check the status. What does git tell you?
+- Commit (git commit) the file README.md and check the status. What does git tell you?
 
 - Check the log. What do you see?
   
 - Add some more info to the README.md
 
-- Check what's changed (git diff README.md) 
+- Check what's changed (git diff) 
  
 - Add and commit README.md and check the log again. What do you see?
 
@@ -29,7 +29,11 @@ We now want to push our file/repo to Github.
 
 - Log in to your Github account and create a new repository (make it public). Read the instructions carefully. We want to push an existing repository. Follow the instructions to add a remote and push.
 
-- View your README.md in Github. Is the formatting as expected?
+- What happened when we added a remote origin? (hint look at .git/config)
+
+- View your README.md in Github. Is the formatting as expected? Add some info to the README.md using the editing capabilities of Github.
+
+- Pull down the changes you just added to the remote to your local repository (git pull).
 
 ## Branching
 
