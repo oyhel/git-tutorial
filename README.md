@@ -1,4 +1,6 @@
-## Tasks
+# A very gentle introduction to git and Github covering the very basics.
+
+## Basics
 
 - Create a local repository named after yourself separated by underscore, eg. *oyvind_helgeland*
 
